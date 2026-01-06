@@ -92,7 +92,7 @@ The final advice is:
 
 - Printed in the terminal, and  
 - Read aloud using Google Text‑to‑Speech (gTTS) in Vietnamese.
-![Output voice](output_advice_text.png.png)
+![Output voice](output_advice_text.png)
 *Figure 4a: Advice printed.*
 
 | Vietnamese Output (AI Voice) | English Translation (Academic Context) |
