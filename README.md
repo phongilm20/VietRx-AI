@@ -58,7 +58,8 @@ These signals feed into the LLM context and help the Auditor enforce safety cons
 
 The webcam captures the medication bottle; YOLOv8 finds the label region, and EasyOCR reads the text.
 
-![VietRx Camera Capture View](Running source/camera.png)  
+![VietRx Camera Capture View](docs/camera.png)  
+
 
 *Figure 1a: Camera capture view.*
 
