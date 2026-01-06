@@ -59,9 +59,11 @@ These signals feed into the LLM context and help the Auditor enforce safety cons
 The webcam captures the medication bottle; YOLOv8 finds the label region, and EasyOCR reads the text.
 
 ![VietRx Camera Capture View](Running source/camera.png)  
+
 *Figure 1a: Camera capture view.*
 
-![Vision](Running source/extraction_yolov8.png)  
+![Vision](Running source/extraction_yolov8.png) 
+
 *Figure 1b: Real‑time identification showing successful detection of Bexarotene.*
 
 ### 4.2 Knowledge
@@ -72,6 +74,7 @@ Cleaned OCR text is matched against the local FDA knowledge base:
 - Regex extracts strength, quantity, and expiry date from the label text.
 
 ![Knowledge](Running source/knowledge.png)
+
 *Figure 2: Ask for confirmation information.*
 
 
@@ -83,6 +86,7 @@ A Dual‑LLM “brain” generates and audits advice:
 - **Auditor Agent:** validates the advice against FDA data and safety rules; if unsafe, it returns a corrected version or a generic warning.
 
 ![Brain](Running source/dual-llm.png)
+
 *Figure 3: Dual-LLM generate advice and audit safety.*
 
 
@@ -93,6 +97,7 @@ The final advice is:
 - Printed in the terminal, and  
 - Read aloud using Google Text‑to‑Speech (gTTS) in Vietnamese.
 ![Output voice](Running source/output_advice_text.png)
+
 *Figure 4a: Advice printed.*
 
 | Vietnamese Output (AI Voice) | English Translation (Academic Context) |
@@ -101,6 +106,7 @@ The final advice is:
 
 
 ![Output voice](Running source/advice_voice.png)
+
 *Figure 4b: Text is reading by gTTS and extract to file advice.mp3.*
 
 ---
