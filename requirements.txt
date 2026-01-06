@@ -1,0 +1,7 @@
+ultralytics
+easyocr
+google-genai
+python-dotenv
+opencv-python
+gTTS
+requests

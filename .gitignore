@@ -1,0 +1,6 @@
+.env
+best.pt
+fda_database.json
+__pycache__/
+*.mp3
+static/
