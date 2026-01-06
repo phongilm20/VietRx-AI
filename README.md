@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo_VietRXhelper.png" alt="VietRx Helper Logo" height="250">
+  <img src="docs/logo_VietRXhelper.png" alt="VietRx Helper Logo" height="250">
 </p>
 
 # VietRx Helper: Multimodal Assistive Technology for Pharmaceutical Label Interpretation
