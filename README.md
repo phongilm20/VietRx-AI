@@ -85,7 +85,7 @@ A Dual‑LLM “brain” generates and audits advice:
 - **Doctor Agent:** writes short, plain‑language Vietnamese guidance for a ~70‑year‑old.  
 - **Auditor Agent:** validates the advice against FDA data and safety rules; if unsafe, it returns a corrected version or a generic warning.
 
-![Brain](docs/dual-llm.png)
+![Brain](docs/dual_llm.png)
 
 *Figure 3: Dual-LLM generate advice and audit safety.*
 
@@ -97,7 +97,7 @@ The final advice is:
 - Printed in the terminal, and  
 - Read aloud using Google Text‑to‑Speech (gTTS) in Vietnamese.
 
-![Output voice](docs/output_advice_text.png)
+![Output voice](docs/output_text.png)
 
 *Figure 4a: Advice printed.*
 
